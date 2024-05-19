@@ -1,0 +1,35 @@
+/* Snackbar.css */
+
+.snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: visibility 0.3s, bottom 0.3s, opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .snackbar.show {
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+  }
+  
+  @media (max-width: 600px) {
+    .snackbar {
+      min-width: 200px;
+      font-size: 15px;
+      padding: 12px;
+    }
+  }
+  

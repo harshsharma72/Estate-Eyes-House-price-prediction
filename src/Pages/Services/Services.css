@@ -1,0 +1,53 @@
+/* src/Services.css */
+
+.services {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  p {
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  .service-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services {
+      padding: 10px;
+    }
+  
+    h1, h2 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services {
+      padding: 5px;
+    }
+  
+    h1 {
+      font-size: 1.3em;
+    }
+  
+    h2 {
+      font-size: 1.1em;
+    }
+  
+    p {
+      font-size: 0.9em;
+    }
+  }
+  
